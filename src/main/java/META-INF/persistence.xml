@@ -1,0 +1,13 @@
+<persistence >
+    <persistence-unit name="Java D12">
+        <properties>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL82Dialect"/>
+            <property name="hibernate.default_schema" value="public"/>
+            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/pg16Java12"/>
+            <property name="javax.persistence.jdbc.user" value="postgres"/>
+            <property name="javax.persistence.jdbc.password" value="riccardo3012"/>
+        </properties>
+    </persistence-unit>
+</persistence>
